@@ -19,7 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@healthcare/*": ["./features/healthcare/*"],
+      "@lawfirm/*": ["./features/law-firm/*"],
+      "@interior/*": ["./features/interior-design/*"]
     }
   },
   "include": [
@@ -30,5 +33,5 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "projects"]
 }

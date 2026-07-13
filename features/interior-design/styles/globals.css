@@ -1,0 +1,28 @@
+@layer base {
+  .interior-experience {
+    background-color: #faf8f5;
+    color: #202020;
+
+    font-feature-settings:
+      "ss01" on,
+      "cv01" on,
+      "cv11" on;
+
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  .interior-experience *:focus-visible {
+    outline: 2px solid #b08a5a;
+    outline-offset: 4px;
+  }
+}
+
+.interior-experience .no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.interior-experience .no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
