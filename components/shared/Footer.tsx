@@ -107,7 +107,7 @@ export default function Footer() {
                 className="flex items-center gap-3 text-slate-400 hover:text-white transition"
               >
                 <Mail size={18} />
-                <span>yathiraj.p10@gmail.com</span>
+                <span>syvenix@gmail.com</span>
               </a>
 
               <a
