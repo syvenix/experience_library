@@ -130,7 +130,7 @@ export default function SignatureModal({
               <Link
                 href={signature.signatureUrl}
                 onClick={onClose}
-                className="inline-flex items-center gap-2 rounded-xl bg-slate-950 px-6 py-3 font-semibold text-white shadow-lg transition duration-300 hover:-translate-y-0.5 hover:gap-3 hover:bg-slate-800"
+                className="inline-flex items-center gap-2 rounded-xl bg-slate-950 px-6 py-3 font-semibold !text-white shadow-lg transition duration-300 hover:-translate-y-0.5 hover:gap-3 hover:bg-slate-800"
               >
                 Explore Full Signature
 
